@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+
+#team-container {
+    background-color: cadetblue;
+    width: 75%;
+    margin: auto;
+    /* padding: 20px; */
+    border-radius: 20px;
+    /* margin-top: 10px; */
+}
+
+.card {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+/* ------------
+    whether stylesheet
+---------------- */
+body {
+    background-image: url(/images/temp1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
