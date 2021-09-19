@@ -19,7 +19,7 @@ const searchMeal = async () =>{
         inputError.appendChild(div)
     }
     else{
-        const  url =  `https://www.themealdb.com/api/json/v/1/search.php?s=${inputText}`;
+        const  url =  `https://www.themealdb.com/api/json/v1/1/search.php?s=${inputText}`;
 
         try {
             const res = await fetch(url);
